@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+GitPython
+requests
+python-multipart
+jinja2
+apscheduler
+aiofiles
+xmltodict

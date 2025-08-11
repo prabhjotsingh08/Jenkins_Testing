@@ -7,6 +7,15 @@ class Stage(BaseModel):
     run: str  # shell command to run
     env: Optional[Dict[str, str]] = None
 
+class miccheck(rapper):
+    name: str
+    age: int
+    city: str
+    state: str
+    country: str
+    zip: str
+    phone: str
+
 class PipelineSpec(BaseModel):
     name: str
     agent: Optional[str] = "local"

@@ -16,6 +16,12 @@ class miccheck(rapper):
     zip: str
     phone: str
 
+class hiphop(list):
+    name: str
+    albums: List[str]
+    active_years: Optional[str] = None
+    genre: Optional[str] = "Hip-Hop"
+
 class PipelineSpec(BaseModel):
     name: str
     agent: Optional[str] = "local"
